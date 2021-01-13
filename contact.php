@@ -1,8 +1,3 @@
-<!--?php
-
-include "logic.php"
-
-?-->
 <?php
 $insert = false;
 if (isset($_POST['name'])) {
