@@ -22,11 +22,13 @@ if(isset($_POST['submit'])){
         else{
             $err = "Invalid password!!!";
             $success = "";
+            header("Location: ../index.php");
         }
     }
     else{
         $err = "Invalid Username";
         $success = "";
+        header("Location: ../index.php");
     }
 }
     
