@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* css variables */
+
+:root {
+    --main-bg-color: crimson;
+    --font-1: 'Roboto', sans-serif;
+    --font-2: 'Oswald', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.font-1 {
+    font-family: var(--font-1);
+}
+
+.font-2 {
+    font-family: var(--font-2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-1 {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.my-2 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.btn {
+    margin-left: 6px;
+    padding: 6px 13px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family: var(--font-1);
+    font-size: 16px;
+    /* background-color: crimson; */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.form-input {
+    font-family: var(--font-1);
+    padding: 6px 18px;
+    padding-top: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 0 10px;
+}
+
+.form-box input,
+textarea {
+    width: 52vw;
+    padding: 8px 6px;
+    margin: 8px 0;
+    font-size: 18px;
+    font-family: var(--font-2);
+    border: 2px solid black;
+    border-radius: 5px;
+}
